@@ -1,5 +1,31 @@
 body { padding-top: 65px; }
 nav { border: none;	}
+.container{
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+h1,h2,h3,h4,h5,p{
+	margin-top: 10px;
+	padding-top: 0;
+}
+
+.info p{
+	font-size: 20px;
+}
+
+.about p{
+	font-size: 15px;
+}
+
+.navbar .container,.headerwrap .container{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+
 .center {
   width: auto;
   display: table;
@@ -24,3 +50,9 @@ nav { border: none;	}
 .headerwrap img{
 	border: 5px #000;
 }
+
+.contact{
+	background-color: #404242;
+	color: white;
+}
+

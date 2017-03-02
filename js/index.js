@@ -4,7 +4,7 @@ var option = [{
   series: [{
     type: 'liquidFill',
     data: [0.75],
-    radius: '100%',
+    radius: '85%',
     amplitude: 10,
     outline: {
       show: false
@@ -22,15 +22,15 @@ var option = [{
 },{
   series: [{
     type: 'liquidFill',
-    data: [0.6],
-    radius: '100%',
+    data: [0.65],
+    radius: '85%',
     amplitude: 10,
     outline: {
       show: false
     },
     label: {
       normal: {
-        formatter: 'javascript',
+        formatter: 'Bootstrap',
         textStyle: {
           fontSize: 25,
           fontFamily: 'Lobster Two'
@@ -41,15 +41,34 @@ var option = [{
 },{
   series: [{
     type: 'liquidFill',
-    data: [0.65],
-    radius: '100%',
+    data: [0.6],
+    radius: '85%',
     amplitude: 10,
     outline: {
       show: false
     },
     label: {
       normal: {
-        formatter: 'Bootstrap',
+        formatter: 'Javascript',
+        textStyle: {
+          fontSize: 25,
+          fontFamily: 'Lobster Two'
+        }
+      }
+    }
+  }]
+},{
+  series: [{
+    type: 'liquidFill',
+    data: [0.6],
+    radius: '85%',
+    amplitude: 10,
+    outline: {
+      show: false
+    },
+    label: {
+      normal: {
+        formatter: 'JQuery',
         textStyle: {
           fontSize: 25,
           fontFamily: 'Lobster Two'

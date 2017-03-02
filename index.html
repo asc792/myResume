@@ -61,10 +61,10 @@
   <div class="jumbotron headerwrap">
     <div class="container">
       <div class="row">
-        <div class="col-md-2 col-md-offset-3">
+        <div class="col-md-2 col-md-offset-2 col-sm-3">
           <img class="img-circle img-responsive port" src="imgs/001.jpg">
         </div>
-        <div class="col-md-3 col-md-offset-1">
+        <div class="col-md-3 col-md-offset-2">
           <br>
           <h1>董树伟</h1>
           <small>Shuwei Dong</small>
@@ -73,35 +73,65 @@
       </div>
     </div>
   </div>
-  <section id="info" name="information"></section>
-  <div class="container">
+  <section id="info" name="education"></section>
+  <div class="container info">
     <div class="row">
-      <div class="col-lg-2 col-lg-offset-1">
-        <h5>INFORMATION</h5>
+      <div class="col-lg-3 col-lg-offset-2">
+        <h3>EDUCATION</h3>
       </div>
       <div class="col-lg-6">
         <p>
+          <strong>Software Engineering Major</strong><br>
+          Jilin University<br>
+          <i>4 Years Course</i>
         </p>
       </div>
     </div>
   </div>
+  <hr style="border-top: #00686b 1px dashed; height: 1px; width: 80%" align="center"/>
   <section id="about" name="about"></section>
-  <div class="container">
+  <div class="container about">
     <div class="row">
-      <div class="col-lg-2 col-lg-offset-1">
-        <h5>ABOUT</h5>
+      <div class="col-lg-3 col-lg-offset-2">
+        <h3>ABOUT</h3>
       </div>
       <div class="col-lg-6">
-        <p>
+        <p>Familiar with HTML,CSS,JavaScript and C language, have a basic understanding of PHP.Had experience with web development.I learned courses of C,C++,JAVA,data structure,database,computer network and UNIX/Linux Operating Systems at school. I am familiar with Mysql and Oracle database as well.
+        </p><br>
+        <hr style="border-top: #987cb9 1px dashed; height: 1px; width: 100%"/>
+      </div>
+      <div class="col-lg-6 col-lg-offset-5">
+        <p>Won scholarship for three years in succession.
+        </p><br>
+        <hr style="border-top: #987cb9 1px dashed; height: 1px; width: 100%"/>
+      </div>
+      <div class="col-lg-6 col-lg-offset-5">
+        <p>I joined the life department of student union in September 2013, became deputy minister in 2014. I was promoted to minister in 2015.In the meantime,I organized department menber to check dormitory,clean warehouse.We organized the culture of dormitory festival every year. During the sports meeting, we were responsible for logistics support.
+        </p><br>
+        <hr style="border-top: #987cb9 1px dashed; height: 1px; width: 100%"/>
+      </div>
+      <div class="col-lg-6 col-lg-offset-5">
+        <p>In September 2015, I participated in China Undergraduate Mathematical Contest in Modeling, won the first prize of Jilin Province.
+        </p><br>
+        <hr style="border-top: #987cb9 1px dashed; height: 1px; width: 100%"/>
+      </div>
+      <div class="col-lg-6 col-lg-offset-5">
+        <p>Won Successfully Participation of Mathematical Contest in Modeling in January 2016.
+        </p><br>
+        <hr style="border-top: #987cb9 1px dashed; height: 1px; width: 100%"/>
+      </div>
+      <div class="col-lg-6 col-lg-offset-5">
+        <p>Actively participated in every project of courses in school.I could complete project independently or through teamwork.When I led the team,I took part in discussion and solved problems actively.I have practice and experience in debugging.
         </p>
       </div>
     </div>
   </div>
+  <hr style="border-top: #00686b 1px dashed; height: 1px; width: 80%" align="center"/>
   <section id="skills" name="skills"></section>
   <div class="container">
     <div class="row">
       <div class="col-lg-2 col-lg-offset-1">
-        <h5>SKILLS</h5>
+        <h3>SKILLS</h3>
       </div>
       <div class="col-lg-3">
         <div class="chart" style="width: 100%; height: 200px"></div>
@@ -110,24 +140,44 @@
         <div class="chart" style="width: 100%; height: 200px"></div>
       </div>
       <div class="col-lg-3">
+        <div class="chart" style="width: 100%; height: 200px"></div>
+      </div>
+      <div class="col-lg-3 col-lg-offset-3">
         <div class="chart" style="width: 100%; height: 200px"></div>
       </div>
     </div>
   </div>
   <section id="contact" name="contact"></section>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-2 col-lg-offset-1">
-        <h5>CONTACT</h5>
-      </div>
-      <div class="col-lg-6">
-        <p>
-        </p>
+  <div class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-lg-offset-1">
+          <h3>CONTACT</h3>
+        </div>
+        <div class="col-lg-6">
+          <p>
+            <t>Email</t><br>
+            dong.shuwei@163.com
+          </p>
+          <p>
+            <t>Address</t><br>
+            吉林省长春市高新区前进大街2699号吉林大学
+          </p>
+          <p>
+            <t>Phone</t><br>
+            15590560296
+          </p>
+        </div>
       </div>
     </div>
   </div>
   <script>
-  
+  $('.center > li > a').click(function(e) {
+    e.prebentDefault()
+    $('html, body').animate({
+      scrollTop: $( $.attr(this, 'href') ).offset().top
+    },500);
+  })
   </script>
 </body>
 </html>
